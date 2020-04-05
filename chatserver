@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+cd ~/Desktop/eclipse/chat
+java ChatServer

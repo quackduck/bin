@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+cd ~/bin
+
+touch "$1"
+chmod +x "$1"
+echo "#!/usr/bin/env bash" >> "$1"
+open -a TextEdit $1

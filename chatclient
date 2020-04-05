@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ~/Desktop/eclipse/chat
+java ChatClient

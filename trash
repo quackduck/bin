@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+
+if [[ -z $1 ]]; then
+
+ 	echo -e "Bruh.\nYou need to trash SOMETHING"
+
+else
+
+
+for var in "$@"
+	do
+
+	   mv $var ~/.Trash 
+
+	done
+fi

@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+
+git pull
+git add .
+
+str=""
+
+if [[ -z $1 ]]; then
+
+ 	git commit -m "Update"
+
+else
+
+for var in "$@"
+	do
+
+	    str="${str}${var} "
+
+	done
+
+	git commit -m "$str" 
+
+fi
+
+git push
