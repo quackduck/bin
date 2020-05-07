@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+cd ~/Desktop/GitHub/Java-quackduck/out/production/MathSequences
+java MathSequences "$@"
