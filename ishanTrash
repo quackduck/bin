@@ -11,7 +11,7 @@ else
 for var in "$@"
 	do
 
-	   mv $var ~/.Trash 
+	   mv -r $var ~/.Trash 
 
 	done
 fi
