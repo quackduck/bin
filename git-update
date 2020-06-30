@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-git pull
 git add .
 
 str=""
@@ -23,4 +22,3 @@ for var in "$@"
 fi
 
 git push
-#!/usr/bin/env bash
