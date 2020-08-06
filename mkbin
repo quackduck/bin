@@ -1,8 +1,7 @@
-#!/usr/bin/env bash
+#!/usr/bin/env fish
 
 cd ~/bin
-
-touch "$1"
-chmod +x "$1"
-echo "#!/usr/bin/env bash" >> "$1"
-open -a TextEdit $1
+touch "$argv[1]"
+chmod +x "$argv[1]"
+echo "#!/usr/bin/env fish" >> "$argv[1]"
+open -a TextEdit "$argv[1]"
